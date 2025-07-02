@@ -36,7 +36,7 @@ The steps to run a first example are described below.
 ### Cargo.toml configuration
 To use the latest version of `TFHE-rs` in your project, you first need to add it as a dependency in your `Cargo.toml`:
 
-+ For x86_64-based machines running Unix-like OSes:
++ For x86_64-based machines running Unix-like OSes
 
 ```toml
 tfhe = { version = "*", features = ["boolean", "shortint", "integer", "x86_64-unix"] }
